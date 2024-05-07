@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Eatery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+        <h1>Tasty Eatery</h1>
+      </header>
+      <header>
+        <nav>
+          <a href="#home">HOME</a> | <a href="#menu">MENU</a> |
+          <a href="#location">LOCATION</a> | <a href="#aboutus">ABOUT US</a> |
+          <a href="#contactus">CONTACT US</a>
+        </nav>
+      </header>
+      <section id="home">
+        <img src="banner.jpg" />
+      </section>
+      <section id="menu">
+          <h2>Our Menu</h2>
+          <div class="grid-container">
+              <img src="1.png" alt="Menu item 1">
+              <img src="2.png" alt="Menu item 2">
+              <img src="3.png" alt="Menu item 3">
+      </div>
+      </section>
+      <div class="order-form">
+        <h2>Place Your Order</h2>
+        <form>
+          <label for="order-input">What would you like to order?</label>
+          <input
+            type="text"
+            id="order-input"
+            placeholder="E.g., Cheeseburger, Pizza..."
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <section id="location">
+          <h2>Location</h2>
+          <p>38th Avenue, New York</p>
+      </section>
+
+      <iframe class="chat-bot" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/b8830d74-1982-4768-ad84-7888bb5d3464"></iframe>
+
+    </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Tasty Eatery</p>
+    </footer>
+  </body>
+</html>
