@@ -81,7 +81,6 @@ def get_order_total(order_id):
     return results
 
 
-
 def insert_order_item(food_items, quantity, order_id):
     try:
         cursor =  cnx.cursor()

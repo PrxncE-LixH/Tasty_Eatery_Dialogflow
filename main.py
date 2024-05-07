@@ -90,7 +90,6 @@ def remove_from_order(param: dict, session_ID: str):
     })
 
 
-
 def insert_to_db(order: dict):
     next_order_ID = db.get_next_order_ID()
 
